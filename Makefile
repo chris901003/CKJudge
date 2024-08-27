@@ -9,7 +9,7 @@ all: clean $(TARGET)
 
 # 編譯 C 檔案
 $(TARGET): $(S)
-	$(CC) $(S) -o $(TARGET)
+	$(CC) $(S) -o $(TARGET) -lm
 
 # 清理目標
 clean:
